@@ -9,7 +9,15 @@ font-family:'Cormorant Garamond', serif;
 
 .hero{
     min-height:100vh;
-    background:red;
+   background-image:
+linear-gradient(
+rgba(0,0,0,0.35),
+rgba(0,0,0,0.35)
+),
+url('serpiente.png');
+
+background-size:cover;
+background-position:center; 
 
     display:flex;
     flex-direction:column;
