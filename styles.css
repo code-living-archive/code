@@ -16,7 +16,8 @@ rgba(0,0,0,0.35)
 ),
 url('/code/serpiente.png');
 
-background-size:cover;
+background-size:contain;
+background-repeat:no-repeat;
 background-position:center top;
 
     display:flex;
