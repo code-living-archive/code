@@ -11,15 +11,7 @@ font-family:'Cormorant Garamond', serif;
 min-height:100vh;
 
 ```
-background-image:
-linear-gradient(
-    rgba(0,0,0,0.35),
-    rgba(0,0,0,0.35)
-),
-url('serpiente.png');
-
-background-size:cover;
-background-position:center;
+background:red;
 
 display:flex;
 flex-direction:column;
@@ -28,12 +20,11 @@ align-items:center;
 
 text-align:center;
 
-padding:1rem;
-
 color:white;
 ```
 
 }
+
 
 h1{
 font-size:4rem;
