@@ -1,0 +1,45 @@
+body{
+margin:0;
+background:#F5F2EA;
+color:#1C1C1C;
+font-family:Georgia, serif;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:2rem;
+}
+
+h1{
+font-size:5rem;
+font-weight:300;
+letter-spacing:0.15em;
+margin-bottom:1rem;
+}
+
+.subtitle{
+font-size:1rem;
+letter-spacing:0.2em;
+text-transform:uppercase;
+margin-bottom:2rem;
+}
+
+p{
+max-width:600px;
+line-height:1.8;
+font-size:1.2rem;
+}
+
+.button{
+display:inline-block;
+margin-top:2rem;
+padding:14px 30px;
+border:1px solid #1C1C1C;
+color:#1C1C1C;
+text-decoration:none;
+}
