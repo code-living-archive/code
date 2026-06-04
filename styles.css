@@ -8,21 +8,17 @@ font-family:'Cormorant Garamond', serif;
 }
 
 .hero{
-min-height:100vh;
+    min-height:100vh;
+    background:red;
 
-```
-background:red;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
+    text-align:center;
 
-text-align:center;
-
-color:white;
-```
-
+    color:white;
 }
 
 
