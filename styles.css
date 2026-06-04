@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Fira+Code:wght@300;400;500&display=swap');
+
 body{
 margin:0;
 background:#F5F2EA;
@@ -31,8 +32,8 @@ padding:1rem;
 
 color:white;
 ```
-}
 
+}
 
 h1{
 font-size:4rem;
@@ -42,14 +43,12 @@ margin-bottom:1rem;
 font-family:'Cormorant Garamond', serif;
 }
 
-
 .subtitle{
-.subtitle{
-    font-family:'Fira Code', monospace;
-    font-size:0.9rem;
-    letter-spacing:0.25em;
-    text-transform:uppercase;
-    margin-bottom:2rem;
+font-family:'Fira Code', monospace;
+font-size:0.9rem;
+letter-spacing:0.25em;
+text-transform:uppercase;
+margin-bottom:2rem;
 }
 
 p{
@@ -62,10 +61,8 @@ font-size:1.2rem;
 display:inline-block;
 margin-top:2rem;
 padding:14px 30px;
-border:1px solid #1C1C1C;
-color:#1C1C1C;
+border:1px solid white;
+color:white;
 text-decoration:none;
-}
-.button{
-    font-family:'Fira Code', monospace;
+font-family:'Fira Code', monospace;
 }
