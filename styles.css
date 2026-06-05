@@ -203,6 +203,36 @@ max-width:none;
 grid-template-columns:1fr;
 }
 
+.archive-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:40px;
+margin-top:3rem;
 }
+
+.archive-card img{
+width:100%;
+height:auto;
+display:block;
+margin-bottom:20px;
+}
+
+.archive-card h3{
+margin-bottom:10px;
+font-size:1.5rem;
+}
+
+.archive-card p{
+max-width:none;
+}
+
+@media(max-width:768px){
+
+.archive-grid{
+grid-template-columns:1fr;
+}
+
+}
+
 
 
