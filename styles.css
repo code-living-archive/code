@@ -161,4 +161,48 @@ p{
 font-size:1.1rem;
 }
 
+.principles-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+margin-top:3rem;
 }
+
+.principle-card{
+background:#F9F7F2;
+border:1px solid #D9D4C8;
+padding:30px;
+transition:0.3s;
+}
+
+.principle-card:hover{
+transform:translateY(-4px);
+}
+
+.principle-card h3{
+font-family:'Fira Code', monospace;
+font-size:0.9rem;
+letter-spacing:0.2em;
+margin-bottom:15px;
+}
+
+.principle-card h4{
+font-size:1.4rem;
+font-weight:500;
+margin-bottom:15px;
+}
+
+.principle-card p{
+margin:0;
+max-width:none;
+}
+
+@media(max-width:768px){
+
+.principles-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+
