@@ -104,3 +104,26 @@ margin-bottom:3rem;
 .philosophy p{
 margin-bottom:2rem;
 }
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 40px;
+
+font-family:'Fira Code', monospace;
+}
+
+.logo{
+font-size:1.2rem;
+}
+
+.menu{
+display:flex;
+gap:20px;
+}
+
+.menu a{
+text-decoration:none;
+color:#1C1C1C;
+}
