@@ -232,7 +232,44 @@ max-width:none;
 grid-template-columns:1fr;
 }
 
+.pairing-grid{
+display:grid;
+grid-template-columns:1fr 80px 1fr;
+align-items:center;
+text-align:center;
+margin:40px 0;
 }
+
+.pairing-animal h4{
+font-family:'Fira Code', monospace;
+letter-spacing:0.15em;
+margin-bottom:10px;
+}
+
+.pairing-cross{
+font-size:2rem;
+font-weight:300;
+}
+
+.status{
+margin-top:20px;
+font-family:'Fira Code', monospace;
+font-size:0.9rem;
+}
+
+@media(max-width:768px){
+
+.pairing-grid{
+grid-template-columns:1fr;
+gap:20px;
+}
+
+.pairing-cross{
+margin:10px 0;
+}
+
+}
+
 
 
 
