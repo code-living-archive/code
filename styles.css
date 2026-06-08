@@ -289,5 +289,17 @@ gap:20px;
 margin:10px 0;
 }
 
+.archive-link{
+text-decoration:none;
+color:inherit;
+display:block;
+}
+
+.archive-card{
+transition:0.3s;
+}
+
+.archive-card:hover{
+transform:translateY(-4px);
 }
 
